@@ -2,6 +2,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 
 // Step 2: Define your component
@@ -14,11 +15,6 @@ const AboutPage = () => {
 }
 
 // Step 3: Export your component
-export const Head = () => (
-    <>
-      <title>About Me</title>
-      <meta name="description" content="Artist description" />
-    </>
-  )
+export const Head = () => <Seo title="About Me" />
 
 export default AboutPage
