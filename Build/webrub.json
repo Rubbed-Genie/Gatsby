@@ -1,0 +1,16 @@
+{
+"companyName": "GenieCo",
+"productName": "WebRub",
+"productVersion": "0.2",
+"dataUrl": "webrub.data.unityweb",
+"wasmCodeUrl": "webrub.wasm.code.unityweb",
+"wasmFrameworkUrl": "webrub.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.4f1"
+}

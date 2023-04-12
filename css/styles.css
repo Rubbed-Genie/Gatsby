@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?fammily=Open+Sans:300,500,700');
+
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+.headlogo{
+	position: fixed;
+	z-index: 2;
+
+}
+
+
+.sidepanel  {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-top: 69px;
+    font-size: 36px;
+
+}
+
+.sidepanel a {
+  padding: 5% 50% 5% 50%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+       -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.sidepanel a:hover {
+  text-decoration: underline;
+}
+
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  position: fixed;
+  right: 0;
+  padding: 10px 15px;
+  border: none;
+  z-index: 1;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 22px;}
+  .sidebar a {font-size: 18px;}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
